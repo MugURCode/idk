@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>R P S</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container"> 
+        <div id="main-frame">
+        
+        </div>
+
+            <p>Rock, Paper, or Scissors?</p>
+            <input id="answer" placeholder="Type answer here" type="text">
+            <div class="submit-answer-bttn">
+                    <input type="reset" onclick="updateDatabase();" value="Play">
+            </div>
+
+            <div id="output-text">
+                
+            </div>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyBE7_t4dnUe-gUKXLrxWsbXwKTZINCel60",
+        authDomain: "rockpaperscissors-9f716.firebaseapp.com",
+        databaseURL: "https://rockpaperscissors-9f716.firebaseio.com",
+        projectId: "rockpaperscissors-9f716",
+        storageBucket: "",
+        messagingSenderId: "90540538765"
+    };
+    firebase.initializeApp(config);
+    </script>
+    <script type="text/javascript" src="js/script.js"></script>
+    
+</body>
+</html>

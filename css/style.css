@@ -1,0 +1,15 @@
+*{
+    margin: 0 auto;
+}
+.container{
+    width: 70%;
+    text-align: center;
+}
+
+#main-frame{
+    border: solid 1px;
+    height: 400px;
+    text-align: center;
+    overflow: auto;
+}
+
