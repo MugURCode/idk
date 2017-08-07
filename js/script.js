@@ -53,6 +53,8 @@ function run(userAnswer, compAnswer){
     }
 }
 
-if(performance.navigation.type == 1){
-    $("#main-frame").empty();
+function resetUserData(){
+    database.remove();
+    window.location.reload();
 }
+    
