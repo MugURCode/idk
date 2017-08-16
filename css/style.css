@@ -1,15 +1,130 @@
 *{
     margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+html{
+   background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+   height:100%;
+}
+p{
+    color:#1fc8db;
+   
+}
+
+input{
+    border:none;
+    color:#1fc8db;
+    background:white; 
+    height: 30px;
+    width: 300px;
+    margin:5px;
+    border-radius: 3px;
+}
+
+#submit-score{
+    width: 150px;
+    border: solid;
+
+}
+
+#answer{
+    text-align: center;
+    display:inline;
+    
+}
+
+
+#title{
+    font-size: 32px;
+    color:white;
 }
 .container{
     width: 70%;
     text-align: center;
+    margin-top: 30px;
 }
 
 #main-frame{
-    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
     height: 400px;
-    text-align: center;
     overflow: auto;
+    background:white;
+    color: #1fc8db;
+    
+    
+}
+#main-frame p{
+    
+}
+.reset-bttn{
+   
+}
+
+.answer-bttn{
+    display:inline;
+    width: 200px;
+}
+
+
+#userAnswer,
+#compAnswer
+{
+    display: block;
+    overflow-wrap:normal;
+}
+
+#userInformation{
+    position:relative;
+    bottom: 430px;
+    right: 530px;
+    
+    
+}
+
+.main-frame-col{
+    height:380px;;
+    width: 200px;
+    margin:4px;
+    border: solid 3px;
+    display:block;
+    overflow: auto;
+    border-radius: 10px;
+    
+}
+
+#leaderboard-scores{
+    list-style: decimal;
+    
+}
+#leaderboard-scores li{
+    padding-bottom: 10px;
+}
+
+.titles{
+    border: solid 3px;
+    width: 170px;
+}
+
+#score, #previous-score{
+    font-size: 50px;
+}
+
+#user-score-frame{
+   height: 380px;
+   flex-direction: column;
+}
+
+#user-previous-score-title{
+    height: 100px;
+    padding-top: 100px;
+}
+
+
+#chat-frame{
+    display:block;
 }
 
